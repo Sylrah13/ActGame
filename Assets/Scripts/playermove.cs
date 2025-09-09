@@ -35,12 +35,18 @@ public class playermove : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.LeftShift))
             {
+<<<<<<< HEAD
                 GetComponent<playervalue>().staAddDel = playervalue.StaONOFF.on;
+=======
+>>>>>>> d8fab39c3acf802cb9839525349aef2ccdd6326b
                 moveSpeed = 2.0f * 3.0f;
             }
             else if (Input.GetKeyUp(KeyCode.LeftShift))
             {
+<<<<<<< HEAD
                 GetComponent<playervalue>().staAddDel = playervalue.StaONOFF.off;
+=======
+>>>>>>> d8fab39c3acf802cb9839525349aef2ccdd6326b
                 moveSpeed = 2.0f;
             }
         }
